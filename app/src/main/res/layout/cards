@@ -1,0 +1,85 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:longClickable="false"
+    android:layout_gravity="center"
+    android:clickable="false"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/card"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardBackgroundColor="@android:color/background_light"
+        >
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:text="contact det"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:src="@drawable/germany"
+                android:layout_gravity="right"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:text="Create an NFC Pet Tag"
+                />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
