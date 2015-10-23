@@ -4,12 +4,12 @@
     android:orientation="vertical"
 
     xmlns:android="http://schemas.android.com/apk/res/android">
-     
-        <ListView android:divider="#0002FF"
+    <!--Declaracion de la Lista para visualizar las Cards--> 
+    <ListView android:divider="#0002FF"
     android:id="@+id/lista"
     android:layout_height="200dp"
     android:layout_weight="1"
-    android:layout_width="fill_parent"> 
+    android:layout_width="fill_parent">
 </ListView>
 
 </LinearLayout>
